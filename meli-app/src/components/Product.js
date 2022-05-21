@@ -24,7 +24,7 @@ export const Product = function ({
 }) {
 	return (
 		<>
-			<Link className="product" to="detail">
+			<Link className="product" to="/detail">
 				<img src={pictureSrc} alt="Producto Src" className="product__image" />
 				<div className="product-elements">
 					<div className="product-elements-header">

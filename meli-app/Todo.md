@@ -8,5 +8,6 @@
 [x] create Product List component
 [x] create Product component
 [x] create detail route
-[ ] create detail screen 
-[ ] create Product detail component
+[x] create detail screen 
+	[ ] styles detail scree
+[ ] craete hook to convert price

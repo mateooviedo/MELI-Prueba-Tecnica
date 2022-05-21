@@ -26,7 +26,7 @@ export const Search = function () {
 				className="search__input"
 				onKeyPress={handleKeyPress}
 			/>
-			<Link className="search-icon" to="result">
+			<Link className="search-icon" to="/result">
 				<img src={SEARCH_ICON} alt="search icon" />
 			</Link>
 		</div>
