@@ -1,5 +1,5 @@
 # To Do list
 [x] config routes
-[ ] create 404 not found Screen
-[ ] create MainScreen
+[x] create 404 not found Screen
+[x] create MainScreen
 [ ] create Search component
