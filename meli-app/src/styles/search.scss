@@ -1,0 +1,31 @@
+$text-color: #999999;
+
+.search {
+	background-color: #ffe600;
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+
+	&__logo {
+		margin-right: 30px;
+	}
+
+	&__input {
+		border: none;
+		color: $text-color;
+		padding: 10px;
+		width: 600px;
+	}
+
+	&__input::placeholder {
+		color: $text-color;
+	}
+
+	&-icon {
+		align-items: center;
+		background-color: #eeeeee;
+		display: flex;
+		justify-content: center;
+		width: 40px;
+	}
+}
