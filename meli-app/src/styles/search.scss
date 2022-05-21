@@ -1,4 +1,5 @@
 $text-color: #999999;
+$text-size: 18px;
 
 .search {
 	background-color: #ffe600;
@@ -7,18 +8,20 @@ $text-color: #999999;
 	padding: 15px;
 
 	&__logo {
-		margin-right: 30px;
+		margin-right: 20px;
 	}
 
 	&__input {
 		border: none;
 		color: $text-color;
+		font-size: $text-size;
 		padding: 10px;
-		width: 600px;
+		width: 70%;
 	}
 
 	&__input::placeholder {
 		color: $text-color;
+		font-size: $text-size
 	}
 
 	&-icon {

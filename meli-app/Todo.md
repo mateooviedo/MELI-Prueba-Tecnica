@@ -2,4 +2,8 @@
 [x] config routes
 [x] create 404 not found Screen
 [x] create MainScreen
-[ ] create Search component
+[x] create Search component
+[x] create route to Result screen
+[x] create Result screen
+[x] create Product List component
+[x] create Product component
