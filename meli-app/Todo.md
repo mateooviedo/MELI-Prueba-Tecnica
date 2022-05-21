@@ -7,3 +7,6 @@
 [x] create Result screen
 [x] create Product List component
 [x] create Product component
+[x] create detail route
+[ ] create detail screen 
+[ ] create Product detail component

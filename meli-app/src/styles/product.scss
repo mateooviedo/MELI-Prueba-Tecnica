@@ -6,20 +6,19 @@ $text-color: #333333;
 	border-color: #eeeeee;
 	border-bottom-width: 2px;
 	display: flex;
-	margin: 0 38px;
 	padding: 16px 0;
 	text-decoration: none;
 
 	&__image {
-		height: 180px;
-		width: 180px;
 		border-radius: 4px;
+		height: 180px;
+		margin: 16px;
+		width: 180px;
 	}
 
 	&-elements {
 		display: flex;
 		flex-direction: column;
-		margin-left: 16px;
 		width: 70%;
 
 		&-header {
