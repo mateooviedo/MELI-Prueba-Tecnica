@@ -1,7 +1,16 @@
-function mappigDataItem(item, dataDescription = {}) {
-	const { id, title, price, currency_id, thumbnail, condition, shipping, sold_quantity, pictures } = item;
+function mappingDataItem(item, dataDescription = {}) {
+	const {
+		id,
+		title,
+		price,
+		currency_id,
+		thumbnail,
+		condition,
+		shipping,
+		sold_quantity,
+		pictures
+	} = item;
 
-	// Description not found
 	return {
 		id,
 		title,
@@ -9,30 +18,30 @@ function mappigDataItem(item, dataDescription = {}) {
 			currency: currency_id,
 			amount: price
 		},
-		picture: (pictures && pictures[0].secure_url) || thumbnail,
+		picture: pictures && pictures[0] ? pictures[0].secure_url : thumbnail,
 		condition,
 		free_shipping: shipping.free_shipping,
 		sold_quantity,
 		description: dataDescription ? dataDescription.plain_text : ''
-	}
+	};
 }
 
 function mappingData(data) {
 	const { results, available_filters } = data;
 
-	const categories = available_filters.map(filter => {
+	const categories = available_filters.map((filter) => {
 		if (filter.name === 'categories') {
 			return filter.values.map((value) => value.name);
 		}
 	});
 
-	const items = results.map(item => mappigDataItem(item));
+	const items = results.map((item) => mappingDataItem(item));
 
 	return {
 		categories,
 		items
-	}
+	};
 }
 
 exports.mappingData = mappingData;
-exports.mappingDataItem = mappigDataItem;
+exports.mappingDataItem = mappingDataItem;

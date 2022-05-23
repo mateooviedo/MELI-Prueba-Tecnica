@@ -9,6 +9,8 @@ app.set('json spaces', 2);
 app.use(require('./routes/index'));
 
 // Init API Rest
-app.listen(app.get('port'), () => {
+const server = app.listen(app.get('port'), () => {
 	console.log(`Server listening on port ${app.get('port')}`);
 });
+
+module.exports = server;
