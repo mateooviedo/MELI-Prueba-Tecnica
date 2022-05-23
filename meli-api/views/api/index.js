@@ -56,12 +56,15 @@ function getItems(req, res) {
 
 function getItemById(req, res) {
 	const id = req.params.id;
-	
+
 	// Get item
 	const url = `${URL_GET_ITEM_BY_ID}${id}`;
+	const urlItemDescription = `${url}/description`;
 	getResponse(url, (data) => {
-		const dataMapped = mapping.mappingDataItem(data);
-		return res.json(dataMapped);
+		getResponse(urlItemDescription, (dataDescription) => {
+			const dataMapped = mapping.mappingDataItem(data, dataDescription);
+			return res.json(dataMapped);
+		});
 	});
 }
 

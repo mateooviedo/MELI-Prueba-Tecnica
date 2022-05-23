@@ -1,4 +1,4 @@
-function mappigDataItem(item) {
+function mappigDataItem(item, dataDescription = {}) {
 	const { id, title, price, currency_id, thumbnail, condition, shipping, sold_quantity, pictures } = item;
 
 	// Description not found
@@ -12,7 +12,8 @@ function mappigDataItem(item) {
 		picture: (pictures && pictures[0].secure_url) || thumbnail,
 		condition,
 		free_shipping: shipping.free_shipping,
-		sold_quantity
+		sold_quantity,
+		description: dataDescription ? dataDescription.plain_text : ''
 	}
 }
 
