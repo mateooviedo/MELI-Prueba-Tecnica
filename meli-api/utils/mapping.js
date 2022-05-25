@@ -27,13 +27,11 @@ function mappingDataItem(item, dataDescription = {}) {
 }
 
 function mappingData(data) {
-	const { results, available_filters } = data;
+	const { results, filters } = data;
 
-	const categories = available_filters.map((filter) => {
-		if (filter.name === 'categories') {
-			return filter.values.map((value) => value.name);
-		}
-	});
+	const categories = filters
+		.find((filter) => filter.id === 'category')
+		?.values.map((value) => value.name);
 
 	const items = results.map((item) => mappingDataItem(item));
 

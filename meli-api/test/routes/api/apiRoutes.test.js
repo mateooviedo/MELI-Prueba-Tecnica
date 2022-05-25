@@ -1,14 +1,12 @@
-// Test integrations
-
-const server = require('../index.js');
+const server = require('../../../index.js');
 const supertest = require('supertest');
 const request = supertest(server);
 
-describe('Api', () => {
+describe('Routes for API', () => {
 	let endpoint;
 	afterEach(() => server.close());
 
-	test('Get items', async () => {
+	test('Get items route', async () => {
 		const query = encodeURI('Iphone xs');
 		endpoint = `/api/items?q=${query}`;
 
@@ -23,7 +21,7 @@ describe('Api', () => {
 		}
 	});
 
-	test('Get item', async () => {
+	test('Get item route', async () => {
 		const id = 'MLA1121276327';
 		endpoint = `/api/items/${id}`;
 

@@ -1,0 +1,71 @@
+{
+	"site_id": "MLA",
+	"country_default_time_zone": "GMT-03:00",
+	"query": "iphone",
+	"paging": {},
+	"results": [
+		{
+			"id": "MLA931172875",
+			"site_id": "MLA",
+			"title": "Apple iPhone 11 (64 Gb) - Verde",
+			"seller": {},
+			"price": 151772,
+			"prices": {},
+			"sale_price": null,
+			"currency_id": "ARS",
+			"available_quantity": 4,
+			"sold_quantity": 10,
+			"buying_mode": "buy_it_now",
+			"listing_type_id": "gold_special",
+			"stop_time": "2041-07-22T04:00:00.000Z",
+			"condition": "new",
+			"permalink": "https://www.mercadolibre.com.ar/apple-iphone-11-64-gb-verde/p/MLA15149563",
+			"thumbnail": "http://http2.mlstatic.com/D_719992-MLA46115014351_052021-I.jpg",
+			"thumbnail_id": "719992-MLA46115014351_052021",
+			"accepts_mercadopago": true,
+			"installments": {},
+			"address": {},
+			"shipping": {
+				"free_shipping": true,
+				"mode": "me2",
+				"tags": [],
+				"logistic_type": "xd_drop_off",
+				"store_pick_up": false
+			},
+			"seller_address": {},
+			"attributes": [],
+			"original_price": null,
+			"category_id": "MLA1055",
+			"official_store_id": null,
+			"domain_id": "MLA-CELLPHONES",
+			"catalog_product_id": "MLA15149563",
+			"tags": [],
+			"catalog_listing": true,
+			"use_thumbnail_id": true,
+			"offer_score": null,
+			"offer_share": null,
+			"match_score": null,
+			"winner_item_id": null,
+			"melicoin": null,
+			"discounts": null,
+			"order_backend": 1
+		}
+	],
+	"sort": {},
+	"available_sorts": [],
+	"filters": [
+		{
+			"id": "category",
+			"name": "Categories",
+			"type": "text",
+			"values": [
+				{
+					"id": "MLA1055",
+					"name": "Celulares y Smartphones",
+					"path_from_root": []
+				}
+			]
+		}
+	],
+	"available_filters": []
+}

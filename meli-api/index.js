@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 3000);
 app.set('json spaces', 2);
 
 //Routes
-app.use(require('./routes/index'));
+app.use(require('./routes/api/routesApi.js'));
 
 // Init API Rest
 const server = app.listen(app.get('port'), () => {
