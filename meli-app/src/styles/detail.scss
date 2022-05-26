@@ -1,5 +1,5 @@
 .detail {
-	margin: 0 10%;
+	margin: 16px 10%;
 
 	&-container {
 		background-color: white;
@@ -16,6 +16,7 @@
 			&__image {
 				max-width: 100%;
 				max-height: 100%;
+				margin-right: 32px;
 			}
 			&__sell {
 				font-size: 14px;

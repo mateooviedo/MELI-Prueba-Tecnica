@@ -11,9 +11,8 @@ export const AppRouter = function () {
 		<Routes>
 			<Route path="*" element={<NotFoundScreen />} />
 			<Route path="/" element={<MainScreen />} />
-			<Route path="items" element={<ResultScreen />}>
-				<Route path=":id" element={<DetailScreen />} />
-			</Route>
+			<Route exact path="items" element={<ResultScreen />} />;
+			<Route exact path="items/:id" element={<DetailScreen />} />
 		</Routes>
 	);
 };
