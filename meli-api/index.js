@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Set port
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3030);
 app.set('json spaces', 2);
 
 //Routes

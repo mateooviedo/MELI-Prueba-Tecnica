@@ -46,3 +46,30 @@ $text-color: #333333;
 		}
 	}
 }
+
+@media only screen and (max-width: 480px) {
+	.product {
+		flex-direction: column;
+		align-items: center;
+
+		&-elements {
+			align-items: center;
+			width: 100%;
+			flex-direction: column-reverse;
+
+			&-header {
+				display: block;
+			}
+
+			&__title {
+				padding: 10px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.product-elements-header {
+		display: block;
+	}
+}
