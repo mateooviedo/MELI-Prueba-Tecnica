@@ -16,6 +16,7 @@
 ### routes
 [x] fix double route when we enter text in the search input
 [x] When we click it in the search set query param /items?search=(encode url)
-[ ] Validate if the url /items not has queryParams so not show list of products 
+[x] Validate if the url /items not has queryParams so not show list of products 
 [x] When the url /items has search queryparam also set value in the search input component
-[ ]
+[x] fetch items and render cantegories and list of products
+[ ] fetch item and render item in Result Screen

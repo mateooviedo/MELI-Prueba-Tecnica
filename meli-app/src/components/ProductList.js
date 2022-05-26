@@ -1,14 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import PRODUCTS from '../resources/db/products.json';
 import { Product } from './Product';
 
-export const ProductList = function () {
+export const ProductList = function ({ items }) {
 	return (
 		<>
-			{PRODUCTS.results.map((product) => (
-				<Product key={product.id} {...product} />
+			{items.map((item) => (
+				<Product key={item.id} {...item} />
 			))}
 		</>
 	);
 };
+
+ProductList.propTypes = {
+	items: PropTypes.array.isRequired
+}

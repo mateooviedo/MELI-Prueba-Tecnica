@@ -1,25 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import '../styles/categories.scss';
 
-export const Categories = function () {
+export const Categories = function ({ listCategories }) {
 	return (
 		<ul className="categories">
-			<li className="categories__item">
-				<span>Electronica, Audio y video</span>
-			</li>
-			<li className="categories__item">
-				<span>iPod</span>
-			</li>
-			<li className="categories__item">
-				<span>Reproductores</span>
-			</li>
-			<li className="categories__item">
-				<span>iPod touch</span>
-			</li>
-			<li className="categories__item">
-				<span>32 GB</span>
-			</li>
+			{listCategories && listCategories.slice(0, 5).map((cateogory) => (
+				<li key={cateogory} className="categories__item">
+					<span>{cateogory}</span>
+				</li>
+			))}
 		</ul>
 	);
+};
+
+Categories.propTypes = {
+	listCategories: PropTypes.array
 };

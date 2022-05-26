@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 
 // styles
@@ -23,6 +23,13 @@ export const Search = function () {
 		}
 	};
 
+	const getSearchParam = () =>
+		searchParams.get('search') ? decodeURI(searchParams.get('search')) : '';
+
+	useEffect(() => {
+		valueInputState(getSearchParam());
+	}, []);
+
 	return (
 		<div className="search">
 			<img src={LOGO} alt="logo" className="search__logo" />
@@ -32,7 +39,7 @@ export const Search = function () {
 				className="search__input"
 				onKeyPress={handleKeyPress}
 				onChange={handleOnChangeInput}
-				defaultValue={searchParams.get('search') ? decodeURI(searchParams.get('search')) : ''}
+				defaultValue={getSearchParam()}
 			/>
 			<Link className="search-icon" to={`/items?search=${encodeURI(valueInput)}`}>
 				<img src={SEARCH_ICON} alt="search icon" />
