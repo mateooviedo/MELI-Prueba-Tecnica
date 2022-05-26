@@ -2,16 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
+import { convertMoney } from '../utils/convertMoney';
+
 import '../styles/product.scss';
 import SHIPPING_IMG from '../resources/assets/ic_shipping.png';
-
-function formatPrice(price, currency_id) {
-	const format = Intl.NumberFormat('en-US', {
-		style: 'currency', currency: currency_id
-	});
-
-	return format.format(price); 
-}
 
 export const Product = function ({
 	id,
@@ -29,7 +23,7 @@ export const Product = function ({
 				<div className="product-elements">
 					<div className="product-elements-header">
 						<div className="elements-header-price">
-							<span className="product-elements-header__price">{formatPrice(price, currency_id)} </span>
+							<span className="product-elements-header__price">{convertMoney(price, currency_id)} </span>
 
 							{shipping && <img src={SHIPPING_IMG} alt="shipping" />}
 						</div>

@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/detail.scss';
 import { Search } from '../components/Search';
 import { Categories } from '../components/Categories';
+import { convertMoney } from '../utils/convertMoney';
 
 import PRODUCTS from '../resources/db/products.json';
 const item = PRODUCTS.results[0];
@@ -32,7 +33,7 @@ const DetailScreen = function ({ id }) {
 								{textSell(item.condition, item.sold_quantity)}
 							</span>
 							<h3 className="detail-container-product__title">{item.title}</h3>
-							<span className="detail-container-product__price">{item.price}</span>
+							<span className="detail-container-product__price">{convertMoney(item.price, item.currency_id)}</span>
 							<input
 								type="button"
 								className="detail-container-product__buyButton"

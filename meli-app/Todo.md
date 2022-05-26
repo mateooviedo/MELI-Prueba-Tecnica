@@ -10,4 +10,12 @@
 [x] create detail route
 [x] create detail screen 
 	[x] styles detail screen
-[ ] craete hook to convert price
+[x] craete hook to convert price
+
+## Backend with frontend
+### routes
+[x] fix double route when we enter text in the search input
+[x] When we click it in the search set query param /items?search=(encode url)
+[ ] Validate if the url /items not has queryParams so not show list of products 
+[x] When the url /items has search queryparam also set value in the search input component
+[ ]
