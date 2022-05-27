@@ -1,0 +1,607 @@
+{
+  "categories": [
+    "Celulares y Smartphones"
+  ],
+  "items": [
+    {
+      "id": "MLA932318794",
+      "title": "Apple iPhone SE (2da Generación) 128 Gb - Blanco",
+      "price": {
+        "currency": "ARS",
+        "amount": 133147
+      },
+      "picture": "http://http2.mlstatic.com/D_963630-MLA46552310340_062021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 24
+    },
+    {
+      "id": "MLA1127715651",
+      "title": "Apple iPhone 12 (128 Gb) - Azul",
+      "price": {
+        "currency": "ARS",
+        "amount": 221781
+      },
+      "picture": "http://http2.mlstatic.com/D_839818-MLA45719894955_042021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA932316301",
+      "title": "Apple iPhone SE (2da Generación) 64 Gb - Negro",
+      "price": {
+        "currency": "ARS",
+        "amount": 123999
+      },
+      "picture": "http://http2.mlstatic.com/D_658260-MLA46552695787_062021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 33
+    },
+    {
+      "id": "MLA916612167",
+      "title": "Apple iPhone 12 (64 Gb) - Negro",
+      "price": {
+        "currency": "ARS",
+        "amount": 194585
+      },
+      "picture": "http://http2.mlstatic.com/D_740855-MLA45719698644_042021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA1137794026",
+      "title": "Apple iPhone 11 (64 Gb) - Blanco",
+      "price": {
+        "currency": "ARS",
+        "amount": 152500
+      },
+      "picture": "http://http2.mlstatic.com/D_809326-MLA46115014340_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 8
+    },
+    {
+      "id": "MLA935261192",
+      "title": "Apple iPhone SE (2da Generación) 256 Gb - Negro",
+      "price": {
+        "currency": "ARS",
+        "amount": 219999
+      },
+      "picture": "http://http2.mlstatic.com/D_867860-MLA46552660763_062021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 18
+    },
+    {
+      "id": "MLA1109016617",
+      "title": "Apple iPhone 13 (128 Gb) - Azul Medianoche",
+      "price": {
+        "currency": "ARS",
+        "amount": 244514
+      },
+      "picture": "http://http2.mlstatic.com/D_973345-MLA47781591382_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 36
+    },
+    {
+      "id": "MLA914256467",
+      "title": "Apple iPhone 11 (128 Gb) - Blanco",
+      "price": {
+        "currency": "ARS",
+        "amount": 169791
+      },
+      "picture": "http://http2.mlstatic.com/D_796892-MLA46114829828_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 7
+    },
+    {
+      "id": "MLA930843789",
+      "title": "Apple iPhone 12 (256 Gb) - Blanco",
+      "price": {
+        "currency": "ARS",
+        "amount": 299999
+      },
+      "picture": "http://http2.mlstatic.com/D_884510-MLA45716388967_042021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA1108993436",
+      "title": "Apple iPhone 13 Mini (128 Gb) - Blanco Estelar",
+      "price": {
+        "currency": "ARS",
+        "amount": 238999
+      },
+      "picture": "http://http2.mlstatic.com/D_932957-MLA47782545553_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 8
+    },
+    {
+      "id": "MLA1122347896",
+      "title": "Apple iPhone 13 Pro Max (128 Gb) - Azul Sierra",
+      "price": {
+        "currency": "ARS",
+        "amount": 326773
+      },
+      "picture": "http://http2.mlstatic.com/D_932467-MLA47776357598_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 6
+    },
+    {
+      "id": "MLA1110005575",
+      "title": "Apple iPhone 13 Pro Max (512 Gb) - Azul Sierra",
+      "price": {
+        "currency": "ARS",
+        "amount": 455435
+      },
+      "picture": "http://http2.mlstatic.com/D_803693-MLA47776072534_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 11
+    },
+    {
+      "id": "MLA1126444710",
+      "title": "Apple iPhone 12 Mini (128 Gb) - (product)red",
+      "price": {
+        "currency": "ARS",
+        "amount": 275499
+      },
+      "picture": "http://http2.mlstatic.com/D_912373-MLA46040947929_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 6
+    },
+    {
+      "id": "MLA1115033145",
+      "title": "Apple iPhone 12 Mini (64 Gb) - Morado",
+      "price": {
+        "currency": "ARS",
+        "amount": 209990
+      },
+      "picture": "http://http2.mlstatic.com/D_967982-MLA46105490244_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA1134234816",
+      "title": "Apple iPhone SE (3ª Generación, 128 Gb) - Product(red)",
+      "price": {
+        "currency": "ARS",
+        "amount": 155197
+      },
+      "picture": "http://http2.mlstatic.com/D_735881-MLA49590258485_042022-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA1107995008",
+      "title": "Apple iPhone XR 64 Gb - Negro",
+      "price": {
+        "currency": "ARS",
+        "amount": 147200
+      },
+      "picture": "http://http2.mlstatic.com/D_941671-MLA46545254213_062021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 34
+    },
+    {
+      "id": "MLA1138395025",
+      "title": "Apple iPhone 13 Pro (256 Gb) - Grafito",
+      "price": {
+        "currency": "ARS",
+        "amount": 322000
+      },
+      "picture": "http://http2.mlstatic.com/D_753104-MLA47778455981_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA1113998209",
+      "title": "Apple iPhone 13 Pro Max (1 Tb) - Azul Sierra",
+      "price": {
+        "currency": "ARS",
+        "amount": 504940
+      },
+      "picture": "http://http2.mlstatic.com/D_875803-MLA47777816110_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 4
+    },
+    {
+      "id": "MLA922927163",
+      "title": "Apple iPhone XR 128 Gb - Azul",
+      "price": {
+        "currency": "ARS",
+        "amount": 160000
+      },
+      "picture": "http://http2.mlstatic.com/D_718561-MLA46545234812_062021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 5
+    },
+    {
+      "id": "MLA1109035934",
+      "title": "Apple iPhone 13 (512 Gb) - Azul Medianoche",
+      "price": {
+        "currency": "ARS",
+        "amount": 341420
+      },
+      "picture": "http://http2.mlstatic.com/D_731526-MLA47781634557_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA1127555977",
+      "title": "Apple iPhone 13 Pro (128 Gb) - Azul Sierra",
+      "price": {
+        "currency": "ARS",
+        "amount": 297782
+      },
+      "picture": "http://http2.mlstatic.com/D_649602-MLA47778541962_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 4
+    },
+    {
+      "id": "MLA1109050097",
+      "title": "Apple iPhone 13 Pro (512 Gb) - Grafito",
+      "price": {
+        "currency": "ARS",
+        "amount": 425732
+      },
+      "picture": "http://http2.mlstatic.com/D_753104-MLA47778455981_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 4
+    },
+    {
+      "id": "MLA1138064623",
+      "title": "Apple iPhone 13 Mini (256 Gb) - (product)red",
+      "price": {
+        "currency": "ARS",
+        "amount": 230000
+      },
+      "picture": "http://http2.mlstatic.com/D_813854-MLA47782406057_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA1113978825",
+      "title": "Apple iPhone 13 Pro (1 Tb) - Azul Sierra",
+      "price": {
+        "currency": "ARS",
+        "amount": 475237
+      },
+      "picture": "http://http2.mlstatic.com/D_649602-MLA47778541962_102021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA1134010085",
+      "title": "Apple iPhone SE (3ª Generación, 64 Gb) - Blanco Estelar",
+      "price": {
+        "currency": "ARS",
+        "amount": 136632
+      },
+      "picture": "http://http2.mlstatic.com/D_740691-MLA49590276600_042022-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA1135063261",
+      "title": "Apple iPhone SE (3ª Generación, 256 Gb) - Azul Medianoche",
+      "price": {
+        "currency": "ARS",
+        "amount": 209990
+      },
+      "picture": "http://http2.mlstatic.com/D_990892-MLA49590214677_042022-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 2
+    },
+    {
+      "id": "MLA1115023235",
+      "title": "Apple iPhone 12 Pro (128 Gb) - Azul Pacífico",
+      "price": {
+        "currency": "ARS",
+        "amount": 329990
+      },
+      "picture": "http://http2.mlstatic.com/D_869199-MLA46081508793_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA1122703087",
+      "title": " iPhone X 64 Gb  Plata",
+      "price": {
+        "currency": "ARS",
+        "amount": 195900
+      },
+      "picture": "http://http2.mlstatic.com/D_635226-MLA31003000949_062019-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA1118442121",
+      "title": "Apple iPhone 12 Pro Max (128 Gb) - Azul Pacífico",
+      "price": {
+        "currency": "ARS",
+        "amount": 430000
+      },
+      "picture": "http://http2.mlstatic.com/D_779435-MLA46088610316_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA1114576836",
+      "title": "iPhone 11 Pro 64 Gb Gris Espacial",
+      "price": {
+        "currency": "ARS",
+        "amount": 236706
+      },
+      "picture": "http://http2.mlstatic.com/D_729868-MLA32647708573_102019-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA795725473",
+      "title": "Celular Apple iPhone 7 32gb 2gb Ram Liberado 12mp  Cuotas",
+      "price": {
+        "currency": "ARS",
+        "amount": 89999
+      },
+      "picture": "http://http2.mlstatic.com/D_858985-MLA31657363336_082019-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 5
+    },
+    {
+      "id": "MLA774479840",
+      "title": "Celular Reacondicionado iPhone 6s 16gb 2gb Ram Ios Original",
+      "price": {
+        "currency": "ARS",
+        "amount": 49999
+      },
+      "picture": "http://http2.mlstatic.com/D_767120-MLA31024384992_062019-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 5
+    },
+    {
+      "id": "MLA1135016783",
+      "title": "Apple iPhone 12 Pro (256 Gb) - Plata",
+      "price": {
+        "currency": "ARS",
+        "amount": 339990
+      },
+      "picture": "http://http2.mlstatic.com/D_775582-MLA46079966651_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA1126445181",
+      "title": "Apple iPhone 12 Mini (256 Gb) - (product)red",
+      "price": {
+        "currency": "ARS",
+        "amount": 309999
+      },
+      "picture": "http://http2.mlstatic.com/D_638833-MLA46042187306_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA1126678754",
+      "title": "Apple iPhone 12 Pro Max (256 Gb) - Oro",
+      "price": {
+        "currency": "ARS",
+        "amount": 343710
+      },
+      "picture": "http://http2.mlstatic.com/D_879889-MLA46088610387_052021-I.jpg",
+      "condition": "new",
+      "free_shipping": false,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA795101443",
+      "title": "Apple iPhone 8 Plus 64gb 3 Gb Dual Camara Cuotas Oferta",
+      "price": {
+        "currency": "ARS",
+        "amount": 159999
+      },
+      "picture": "http://http2.mlstatic.com/D_942663-MLA31655695198_082019-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 5
+    },
+    {
+      "id": "MLA805289590",
+      "title": "Celular Apple iPhone 8 64gb 2gb Ram Liberado Original ",
+      "price": {
+        "currency": "ARS",
+        "amount": 149999.98
+      },
+      "picture": "http://http2.mlstatic.com/D_663885-MLA31656971177_082019-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 5
+    },
+    {
+      "id": "MLA1125200098",
+      "title": " iPhone X 256 Gb  Plata",
+      "price": {
+        "currency": "ARS",
+        "amount": 214900
+      },
+      "picture": "http://http2.mlstatic.com/D_719513-MLA31003080298_062019-I.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 0
+    },
+    {
+      "id": "MLA781985355",
+      "title": "iPhone 6s Plus 16gb Refabricado 2gb Ram Celular Liberado",
+      "price": {
+        "currency": "ARS",
+        "amount": 69999
+      },
+      "picture": "http://http2.mlstatic.com/D_920968-MLA29974973989_042019-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 3
+    },
+    {
+      "id": "MLA1130618836",
+      "title": "iPhone SE 3 Generacion 2022 64gb-caja Sellada-1 Año Garantia",
+      "price": {
+        "currency": "ARS",
+        "amount": 169990
+      },
+      "picture": "http://http2.mlstatic.com/D_695455-MLA49565734530_042022-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA1131510757",
+      "title": "Celular iPhone 7 Plus 128 Gb Apple Liberado Plata",
+      "price": {
+        "currency": "ARS",
+        "amount": 79990
+      },
+      "picture": "http://http2.mlstatic.com/D_987531-MLA49627518412_042022-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 3
+    },
+    {
+      "id": "MLA906687648",
+      "title": "iPhone SE (2nd Generación) 128 Gb - Negro",
+      "price": {
+        "currency": "ARS",
+        "amount": 179999
+      },
+      "picture": "http://http2.mlstatic.com/D_896633-MLA42320762680_062020-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 25
+    },
+    {
+      "id": "MLA1108364816",
+      "title": "Apple iPhone 13 (256 Gb) - Blanco Estelar",
+      "price": {
+        "currency": "ARS",
+        "amount": 270793
+      },
+      "picture": "http://http2.mlstatic.com/D_687153-MLA47894281249_102021-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 5
+    },
+    {
+      "id": "MLA1108678714",
+      "title": "Apple iPhone 13 Pro Max (128 Gb) - Grafito",
+      "price": {
+        "currency": "ARS",
+        "amount": 330999
+      },
+      "picture": "http://http2.mlstatic.com/D_714688-MLA47894593782_102021-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 5
+    },
+    {
+      "id": "MLA1108058784",
+      "title": "Apple iPhone 13 Mini (128 Gb) - Azul Medianoche (negro)",
+      "price": {
+        "currency": "ARS",
+        "amount": 238999
+      },
+      "picture": "http://http2.mlstatic.com/D_678751-MLA47863061146_102021-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 5
+    },
+    {
+      "id": "MLA1108612554",
+      "title": "Celular iPhone 6s 32gb Refabricado Gold",
+      "price": {
+        "currency": "ARS",
+        "amount": 79999
+      },
+      "picture": "http://http2.mlstatic.com/D_750648-MLA47918421181_102021-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 3
+    },
+    {
+      "id": "MLA931173035",
+      "title": "Apple iPhone 11 (64 Gb) - Morado",
+      "price": {
+        "currency": "ARS",
+        "amount": 160999
+      },
+      "picture": "http://http2.mlstatic.com/D_793954-MLA46114829790_052021-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 1
+    },
+    {
+      "id": "MLA795491376",
+      "title": "Celular iPhone 7 32gb 2gb Ram 12mp 7mp Apple Original ",
+      "price": {
+        "currency": "ARS",
+        "amount": 89999.99
+      },
+      "picture": "http://http2.mlstatic.com/D_623002-MLA31656889554_082019-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 25
+    },
+    {
+      "id": "MLA1108484285",
+      "title": "Apple iPhone 13 Pro (256 Gb) - Oro",
+      "price": {
+        "currency": "ARS",
+        "amount": 345999
+      },
+      "picture": "http://http2.mlstatic.com/D_614701-MLA47903873035_102021-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 2
+    },
+    {
+      "id": "MLA1121276327",
+      "title": "Apple iPhone 12 128gb-incluye Cargador Usbc-cuotas S/interes",
+      "price": {
+        "currency": "ARS",
+        "amount": 317990
+      },
+      "picture": "http://http2.mlstatic.com/D_656126-MLA46104947324_052021-O.jpg",
+      "condition": "new",
+      "free_shipping": true,
+      "sold_quantity": 3
+    }
+  ]
+}
