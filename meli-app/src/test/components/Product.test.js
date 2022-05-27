@@ -5,7 +5,7 @@ import { Router } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
 
 import { AppRouter } from '../../routers/AppRouter';
-import resultApi from '../fixtures/results.json';
+import resultApi from '../resources/results.json';
 
 global.fetch = require('jest-fetch-mock');
 
