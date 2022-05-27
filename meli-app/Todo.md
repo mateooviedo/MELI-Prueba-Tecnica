@@ -19,4 +19,7 @@
 [x] Validate if the url /items not has queryParams so not show list of products 
 [x] When the url /items has search queryparam also set value in the search input component
 [x] fetch items and render cantegories and list of products
-[ ] fetch item and render item in Detail Screen
+[x] fetch item and render item in Detail Screen
+
+## SEO
+[ ] use react-helmet to set SEO

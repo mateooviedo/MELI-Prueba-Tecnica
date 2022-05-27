@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import '../styles/result.scss';
 import { Search } from '../components/Search';
@@ -24,11 +25,18 @@ const ResultScreen = function () {
 				{query && loading && <h1>Loading...</h1>}
 				{data && (
 					<>
-						<Categories listCategories={data.categories}/>
-						<ProductList items={data.items.slice(0, 4)}/>
+						<Categories listCategories={data.categories} />
+						<ProductList items={data.items.slice(0, 4)} />
 					</>
 				)}
 			</div>
+			<Helmet>
+				<title>{decodeURI(query)} | MELI</title>
+				<meta
+					name="description"
+					content="Prueba tecnica de MELI pagina de resultados de busqueda de productos"
+				/>
+			</Helmet>
 		</>
 	);
 };
