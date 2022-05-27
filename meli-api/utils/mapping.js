@@ -1,3 +1,7 @@
+/*
+ * @param: { item: object }
+ * @param: { dataDescription: object }
+ */
 function mappingDataItem(item, dataDescription = {}) {
 	const {
 		id,
@@ -26,6 +30,9 @@ function mappingDataItem(item, dataDescription = {}) {
 	};
 }
 
+/*
+ * @param: { data: object }
+ */
 function mappingData(data) {
 	const { results, filters } = data;
 

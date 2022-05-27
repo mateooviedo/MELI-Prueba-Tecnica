@@ -1,10 +1,17 @@
+// Imports
 const https = require('https');
 const mapping = require('../../utils/mapping.js');
 
 const URL_GET_ITEMS = 'https://api.mercadolibre.com/sites/MLA/search?q=';
 const URL_GET_ITEM_BY_ID = 'https://api.mercadolibre.com/items/';
 
+/*
+ * @param: { url: string }
+ * @param: { cb: function }
+ */
 function getResponse(url, cb) {
+	// getResponse obtiene una url y un callback para hacer una peticion http
+	// el callback es usado para manipular los datos obtenidos
 	https
 		.get(url, (resGet) => {
 			console.log('status code: ', resGet.statusCode);
@@ -35,7 +42,12 @@ function getResponse(url, cb) {
 		});
 }
 
+/*
+ * @param: { req: object }
+ * @param: { res: object }
+ */
 function getItems(req, res) {
+	// getItems es el controller del endpoint /api/items
 	const query = req.query.q;
 
 	if (!query) {
@@ -54,7 +66,12 @@ function getItems(req, res) {
 	});
 }
 
+/*
+ * @param: { req: object }
+ * @param: { res: object }
+ */
 function getItemById(req, res) {
+	// getItemById es el controller del endpoint /api/items/:id
 	const id = req.params.id;
 
 	// Get item
