@@ -21,7 +21,7 @@ const ResultScreen = function () {
 	return (
 		<>
 			<Search />
-			<div className="result">
+			<div className="result" data-testid="result">
 				{query && loading && <h1>Loading...</h1>}
 				{data && (
 					<>

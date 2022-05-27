@@ -21,7 +21,7 @@ const DetailScreen = function () {
 	}
 
 	return (
-		<>
+		<div data-testid="detail">
 			<Search />
 			{loading && <h1>Loading...</h1>}
 			{data && (
@@ -64,7 +64,7 @@ const DetailScreen = function () {
 					</Helmet>
 				</>
 			)}
-		</>
+		</div>
 	);
 };
 

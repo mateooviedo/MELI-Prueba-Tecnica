@@ -12,6 +12,9 @@ export const Search = function () {
 	const [searchParams] = useSearchParams();
 	const navigate = useNavigate();
 	const [valueInput, valueInputState] = useState('');
+	const paramValue = searchParams.get('search')
+		? decodeURI(searchParams.get('search'))
+		: '';
 
 	const handleOnChangeInput = function (event) {
 		valueInputState(event.target.value);
@@ -23,12 +26,9 @@ export const Search = function () {
 		}
 	};
 
-	const getSearchParam = () =>
-		searchParams.get('search') ? decodeURI(searchParams.get('search')) : '';
-
 	useEffect(() => {
-		valueInputState(getSearchParam());
-	}, []);
+		valueInputState(paramValue);
+	}, [paramValue]);
 
 	return (
 		<div className="search">
@@ -39,7 +39,7 @@ export const Search = function () {
 				className="search__input"
 				onKeyPress={handleKeyPress}
 				onChange={handleOnChangeInput}
-				defaultValue={getSearchParam()}
+				defaultValue={paramValue}
 			/>
 			<Link className="search-icon" to={`/items?search=${encodeURI(valueInput)}`}>
 				<img src={SEARCH_ICON} alt="search icon" />
